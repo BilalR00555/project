@@ -14,6 +14,9 @@ nav a {
     padding: 10px 20px 10px 20px;
     background-color: black;
     border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
 }
 
 nav a:hover {
@@ -28,7 +31,7 @@ main {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 0; 
 }
 
 .product-card {
@@ -106,4 +109,9 @@ footer {
 #logo {
     /* Pas de grootte van het logo aan als nodig */
     
+}
+.kkrposter{
+
+    height: 400;
+    width: 200;
 }
