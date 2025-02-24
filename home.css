@@ -26,12 +26,13 @@ nav a:hover {
 
 main {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100vh;
     margin: 0; 
+
 }
 
 .product-card {
@@ -109,4 +110,38 @@ footer {
 #logo {
     /* Pas de grootte van het logo aan als nodig */
     
+}
+
+
+.kkrposter {
+        width: 100%; /* Laat de afbeelding de breedte van de container nemen */
+        max-height: 400px; /* Beperk de hoogte */
+        object-fit: cover; /* Snijd afbeelding bij zonder vervorming */
+        border-radius: 8px;
+ }
+
+ .Locatie{
+    height: 100px;
+}
+.Telefoon{
+    height: 100px;
+}
+.e-mail{
+    height: 100px;
+}
+.openingsuren{
+    height: 100px;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+}
+.productpage{
+    width: 300px; 
+    height: auto; 
+    
+    object-fit: cover; 
+    display: block; /* Verwijdert extra ruimte onder de afbeelding */
+    margin: 0 auto; /* Centreert de afbeelding */
 }
