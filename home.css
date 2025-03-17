@@ -113,7 +113,7 @@ footer {
 }
 
 
-.kkrposter {
+.poster {
         width: 100%; /* Laat de afbeelding de breedte van de container nemen */
         max-height: 400px; /* Beperk de hoogte */
         object-fit: cover; /* Snijd afbeelding bij zonder vervorming */
